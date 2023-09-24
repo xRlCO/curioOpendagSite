@@ -35,6 +35,7 @@
     <div class="main">
     </div>
     <div class="vakken">
+        <h2>De vakken die je gaat krijgen</h2>
         <p>In het eerste jaar leer je vooral de basis van programmeer- en opmaaktalen. In het tweede jaar werk je
             met frameworks die bedrijven gebruiken, zoals Laravel, Vue, React, Xamarin en Bootstrap.</p>
         <p>Codelab is een vak waar je onder begeleiding huiswerk kan maken met begeleiding. Dit is een soort
@@ -78,6 +79,7 @@
     </div>
 
     <div class="docenten">
+        <h2>De docenten op onze opleiding</h2>
         <div class="Wicher teacher">
             <img src="img/babyteacher.jpg" alt="teacher baby uwu ahaego">
             <h3>Wicher Hulzebosch</h3>
