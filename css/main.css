@@ -87,6 +87,149 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Reset some default styles */
+html, body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.babyLore {
+  color: #69197c;
+}
+
+p {
+  border: 3px solid #03357c;
+  border-radius: 15px;
+  padding: 10px; 
+}
+
+
+/* Set the background color */
+body {
+  background-color: #69197c;
+  color: #c0ed0c;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: #03357c;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+/* Main content styles */
+.main {
+  padding: 20px;
+}
+
+/* Vakken section styles */
+.vakken {
+  padding: 20px;
+}
+
+.vakken p {
+  margin-bottom: 20px;
+}
+
+/* Rooster section styles */
+.rooster {
+  text-align: center;
+  padding: 20px;
+}
+
+.rooster h2 {
+  font-size: 24px;
+}
+.blokindeling img, .rooster img{ 
+  max-width: 70%;
+}
+/* Blokindeling section styles */
+.blokindeling {
+  text-align: center;
+  padding: 20px;
+}
+
+.blokindeling h2 {
+  font-size: 24px;
+}
+
+/* Docenten section styles */
+.docenten {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teacher {
+  flex-basis: calc(33.33% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.teacher img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.teacher h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.teacher p {
+  font-size: 16px;
+  color: #c0ed0c;
+}
+
+/* Stage section styles */
+.stage {
+  padding: 20px;
+}
+
+.stage h2 {
+  font-size: 24px;
+}
+
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: #03357c;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: #c0ed0c;
+}
+
+/* Links styles */
+a {
+  color: #c0ed0c;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #03357c;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .docenten .teacher {
+      flex-basis: calc(50% - 20px);
+  }
+}
+
+/* Add more media queries as needed for responsive design */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

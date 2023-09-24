@@ -68,7 +68,7 @@
     </div>
     <div class="blokindeling">
         <h2>
-            En dit is de blokindeling van de complete opleiding
+            En dit is de blokindeling van de complete opleiding.
         </h2>
         <img src="img/Opleidingsoverzicht3.png" alt="overzicht van de blokken">
     </div>
